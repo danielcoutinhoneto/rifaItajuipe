@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="t-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+  <title>Snack Point</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" id="style-css" href="./css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" id="confirm-css-css" href="./css/confirm.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="bootstrap4-css" href="./css/bootstrap.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="font-awesome.min-css" href="./css/font-awesome.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="custom-css" href="./css/custom.css" type="text/css" media="all">
+  <link rel="stylesheet" id="fotorama-css-css" href="./css/fotorama.css" type="text/css" media="all">
+  <link rel="stylesheet" id="pro-dynamic-css-css" href="./css/admin-ajax.php" type="text/css" media="all">
+  <script src="./js/webfont.js.download" type="text/javascript" async=""></script>
+  <script type="text/javascript" src="./js/jquery.min.js.download" id="jquery-core-js"></script>
+  <script type="text/javascript" src="./js/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
+  <script type="text/javascript" src="./js/fotorama.js.download" id="fotorama-js-js"></script>
+  <style type="text/css"></style>
+  <script type="text/javascript" src="./js/jquery.countdown.min.js.download" id="jquery-countdown-js"></script>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://divimotos.com.br/wp-content/uploads/2020/06/favicon.png">
+  <script>if (performance.navigation.type == 2) { location.reload(true) }</script>
+  <link rel="stylesheet" href="./css/css" media="all">
+  <style id="global-styles-inline-css" type="text/css">
+    body {
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+      --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+      --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+      --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+      --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+      --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+      --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+      --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+  </style>
+</head>
+
+<body data-rsssl="1" class="post-template-default single single-post postid-15154 single-format-standard"
+  cz-shortcut-listen="true">
+  <nav class="navbar navbar-expand-lg shadow navbar-dark bg-dark text-white bg_custum_menu">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-img" href="https://divimotos.com.br/" title="Divi Motos">
+        <span>RIFA ITAJUÍPE</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNavDropdown" class="collapse navbar-collapse">
+        <ul id="menu-menu-principal" class="navbar-nav ml-md-auto text-uppercase">
+          <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15206"
+            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15206 nav-item"><a title="Home"
+              href="https://divimotos.com.br/" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </li>
+          <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15207"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15207 nav-item"><a
+              title="Sorteios" href="https://divimotos.com.br/sorteios/" class="nav-link"><i class="fa fa-bookmark"
+                aria-hidden="true"></i> Sorteios</a></li>
+          <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15208"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15208 nav-item"><a
+              title="Fale conosco" href="https://divimotos.com.br/fale-conosco/" class="nav-link"><i
+                class="fa fa-whatsapp" aria-hidden="true"></i> Fale conosco</a></li>
+          <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15209"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15209 nav-item"><a title="Termos"
+              href="https://divimotos.com.br/termos-de-uso/" class="nav-link"><i class="fa fa-file-text"
+                aria-hidden="true"></i> Termos</a></li>
+          <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15210"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15210 nav-item"><a
+              title="Minhas cotas" href="https://divimotos.com.br/minhas-compras/" class="nav-link"><i
+                class="fa fa-check-square" aria-hidden="true"></i> Minhas cotas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade mt-1" id="allMyQuotas" tabindex="-1" role="dialog" aria-labelledby="numberReservationLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="consultMyNumbersFormLabel">CONSULTAR COTA(S)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method="post" class="" name="consultAllMyQuotas" id="consultAllMyQuotasForm">
+            <div class="form-group">
+              <label for="phone" class="col-form-label text-uppercase">Número de celular cadastrado:</label>
+              <input type="tel" name="phone" class="form-control form-control-lg js_phone" id="phone"
+                placeholder="Número de celular cadastrado" required="" max="100" maxlength="15">
+              <input type="hidden" name="wredirection" value="https://divimotos.com.br/minhas-compras" max="100">
+            </div>
+            <input type="hidden" id="field_consult_all_my_quotas" name="field_consult_all_my_quotas" value="0d1bfef95a"
+              max="100"><input type="hidden" name="_wp_http_referer" value="/rapidinha-honda-biz-3/" max="100">
+            <div class="modal-footer">
+              <button type="submit" id="btnSubmitAllPhone" title="Clique para consultar"
+                class="btn btn-success">Confirmar</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="mb-2 col-12 col-lg-8">
+        <div class="mb-2 main_fotorama" style="">
+          <style></style>
+          <div class="fotorama--hidden"></div>
+          <div class="fotorama fotorama1658334513380" data-autoplay="true" data-width="100%" data-ratio="1280/720"
+            data-allowfullscreen="true" data-nav="thumbs">
+            <div
+              class="fotorama__wrap fotorama__wrap--css3 fotorama__wrap--slide fotorama__wrap--toggle-arrows fotorama__wrap--no-controls"
+              style="width: 100%; min-width: 0px; max-width: 100%;">
+              <div class="fotorama__stage" style="width: 783px; height: 441px;">
+                <div class="fotorama__fullscreen-icon" tabindex="0" role="button"></div>
+                <div class="fotorama__stage__shaft"
+                  style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); width: 783.328px; margin-left: 0px;">
+                  <div class="fotorama__stage__frame fotorama__loaded fotorama__loaded--img fotorama__active"
+                    style="left: 0px;"><img
+                      src="./img/6BA0E76B-7A89-4B16-B5BF-FF15E543B770-pcrl4epxx7dcbjcfpzlcohw3xcltqkd3q2ba2yobvk.jpeg"
+                      class="fotorama__img" style="width: 783.328px; height: 440.622px; left: 0px; top: 0.189px;">
+                  </div>
+                </div>
+                <div class="fotorama__arr fotorama__arr--prev fotorama__arr--disabled" tabindex="-1" role="button"
+                  disabled="disabled" style="display: none;"></div>
+                <div class="fotorama__arr fotorama__arr--next fotorama__arr--disabled" tabindex="-1" role="button"
+                  disabled="disabled" style="display: none;"></div>
+                <div class="fotorama__video-close"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-4 col-12 col-lg-4 text_info">
+        <div class="rounded p-3">
+          <div class="">
+            <h1 class="h4 color_tilte_single">Rapidinha Honda Biz</h1>
+          </div>
+          <div>
+            <div class="bd-highlight d-flex justify-content-center mb-3 text-center">
+              <div class="badge-success bd-highlight flex-fill p-2 rounded main_price">
+                <p class="font-weight-bold mb-0 text-uppercase">Valor </p>
+                <p class="mb-0">R$ 2,00</p>
+              </div>
+            </div>
+            <p>O ganhador dessa ação leva 10 números para concorrer a Honda Biz 125.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg_custom_draw mb-5 border-top">
+      <div id="cotas">
+        <div class="row">
+          <div class="col-auto my-1">
+            <div aria-label="Cotas" class="btn-group my-1" role="group">
+              <button onclick="setAllCotas()" class="btn btn-dark btn_all" type="button">Todas (<span
+                  class="j_all">100</span>) </button>
+              <button onclick="setSearchStatus(3)" class="btn btn-light btn_available" type="button"><i
+                  class="fa fa-pencil-square-o" aria-hidden="true"></i> Livres (<span class="j_available">0</span>)
+              </button>
+              <button onclick="setSearchStatus(0)" class="btn btn-info btn_reserved" type="button"> <i
+                  class="fa fa-clock-o" aria-hidden="true"></i> Reservados (<span class="j_reserved">0</span>)
+              </button>
+              <button onclick="setSearchStatus(1)" class="btn btn-success btn_paid" type="button"><i
+                  class="fa fa-check-square-o" aria-hidden="true"></i> Pagos (<span class="j_paid">100</span>)
+              </button>
+            </div>
+            <div aria-label="openModal" class="btn-group my-1" role="group">
+              <button class="btn btn-danger btn_mynumber" data-target="#consultMyNumberModal" data-toggle="modal"
+                type="button"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Ver minha(s) cota(s) </button>
+              <button class="btn paidMyNumber" data-target="#consultMyNumberModal" data-toggle="modal" type="button"><i
+                  class="fa fa-hand-o-right" aria-hidden="true"></i> Clique para pagar </button>
+            </div>
+          </div>
+          <div class="col-lg-12 text-center mt-1 mb-2 main_random_numbers d-none">
+            <button class="btn btn-secondary" data-target="#select-random-numbers-modal" data-toggle="modal"
+              type="button">ESCOLHER COTAS ALEATÓRIAS</button>
+          </div>
+        </div>
+        <div>
+          <div class="cotas-pages">
+            <div class="listcotas">
+              <div class="cotas-listagem">
+                <div class="cotas-item status1  " onclick="fncChoose(this, 0)" id="cota_0">
+                  <div class="cotas-item--content">000</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 000 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 1)" id="cota_1">
+                  <div class="cotas-item--content">001</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 001 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 2)" id="cota_2">
+                  <div class="cotas-item--content">02</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 002 pago</div>
+                    <div class="text-warning">Deoclecio Neponoceno De oliveira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 3)" id="cota_3">
+                  <div class="cotas-item--content">03</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 003 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 4)" id="cota_4">
+                  <div class="cotas-item--content">04</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 004 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 5)" id="cota_5">
+                  <div class="cotas-item--content">05</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 005 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 6)" id="cota_6">
+                  <div class="cotas-item--content">06</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 006 pago</div>
+                    <div class="text-warning">Anderson oliveira dos santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 7)" id="cota_7">
+                  <div class="cotas-item--content">07</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 007 pago</div>
+                    <div class="text-warning">Ronald Almeida Gomes Junior</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 8)" id="cota_8">
+                  <div class="cotas-item--content">08</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 008 pago</div>
+                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 9)" id="cota_9">
+                  <div class="cotas-item--content">09</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 009 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 10)" id="cota_10">
+                  <div class="cotas-item--content">10</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 010 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 11)" id="cota_11">
+                  <div class="cotas-item--content">11</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 011 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 12)" id="cota_12">
+                  <div class="cotas-item--content">12</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 012 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 13)" id="cota_13">
+                  <div class="cotas-item--content">13</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 013 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 14)" id="cota_14">
+                  <div class="cotas-item--content">14</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 014 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 15)" id="cota_15">
+                  <div class="cotas-item--content">15</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 015 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 16)" id="cota_16">
+                  <div class="cotas-item--content">16</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 016 pago</div>
+                    <div class="text-warning">Rhayam Almeida</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 17)" id="cota_17">
+                  <div class="cotas-item--content">17</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 017 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 18)" id="cota_18">
+                  <div class="cotas-item--content">18</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 018 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 19)" id="cota_19">
+                  <div class="cotas-item--content">19</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 019 pago</div>
+                    <div class="text-warning">Patrick Pierre ramos vieira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 20)" id="cota_20">
+                  <div class="cotas-item--content">20</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 020 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 21)" id="cota_21">
+                  <div class="cotas-item--content">21</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 021 pago</div>
+                    <div class="text-warning">Patrick Pierre ramos vieira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 22)" id="cota_22">
+                  <div class="cotas-item--content">22</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 022 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 23)" id="cota_23">
+                  <div class="cotas-item--content">23</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 023 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 24)" id="cota_24">
+                  <div class="cotas-item--content">24</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 024 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 25)" id="cota_25">
+                  <div class="cotas-item--content">25</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 025 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 26)" id="cota_26">
+                  <div class="cotas-item--content">26</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 026 pago</div>
+                    <div class="text-warning">Rony chagas Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 27)" id="cota_27">
+                  <div class="cotas-item--content">27</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 027 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 28)" id="cota_28">
+                  <div class="cotas-item--content">28</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 28 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 29)" id="cota_29">
+                  <div class="cotas-item--content">29</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 29 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 30)" id="cota_30">
+                  <div class="cotas-item--content">30</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 30 pago</div>
+                    <div class="text-warning">Lucas Muniz Barra da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 31)" id="cota_31">
+                  <div class="cotas-item--content">31</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 31 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 32)" id="cota_32">
+                  <div class="cotas-item--content">32</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 32 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 33)" id="cota_33">
+                  <div class="cotas-item--content">33</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 33 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 34)" id="cota_34">
+                  <div class="cotas-item--content">34</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 34 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 35)" id="cota_35">
+                  <div class="cotas-item--content">35</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 35 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 36)" id="cota_36">
+                  <div class="cotas-item--content">36</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 36 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 37)" id="cota_37">
+                  <div class="cotas-item--content">37</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 37 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 38)" id="cota_38">
+                  <div class="cotas-item--content">38</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 38 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 39)" id="cota_39">
+                  <div class="cotas-item--content">39</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 39 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 40)" id="cota_40">
+                  <div class="cotas-item--content">40</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 40 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 41)" id="cota_41">
+                  <div class="cotas-item--content">41</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 41 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 42)" id="cota_42">
+                  <div class="cotas-item--content">42</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 42 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 43)" id="cota_43">
+                  <div class="cotas-item--content">43</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 43 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 44)" id="cota_44">
+                  <div class="cotas-item--content">44</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 44 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 45)" id="cota_45">
+                  <div class="cotas-item--content">45</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 45 pago</div>
+                    <div class="text-warning">Deoclecio Neponoceno De oliveira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 46)" id="cota_46">
+                  <div class="cotas-item--content">46</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 46 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 47)" id="cota_47">
+                  <div class="cotas-item--content">47</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 47 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 48)" id="cota_48">
+                  <div class="cotas-item--content">48</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 48 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 49)" id="cota_49">
+                  <div class="cotas-item--content">49</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 49 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 50)" id="cota_50">
+                  <div class="cotas-item--content">50</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 50 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 51)" id="cota_51">
+                  <div class="cotas-item--content">51</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 51 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 52)" id="cota_52">
+                  <div class="cotas-item--content">52</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 52 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 53)" id="cota_53">
+                  <div class="cotas-item--content">53</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 53 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 54)" id="cota_54">
+                  <div class="cotas-item--content">54</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 54 pago</div>
+                    <div class="text-warning">Wesley Couto</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 55)" id="cota_55">
+                  <div class="cotas-item--content">55</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 55 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 56)" id="cota_56">
+                  <div class="cotas-item--content">56</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 56 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 57)" id="cota_57">
+                  <div class="cotas-item--content">57</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 57 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 58)" id="cota_58">
+                  <div class="cotas-item--content">58</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 58 pago</div>
+                    <div class="text-warning">Mario Jose Franco Adala</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 59)" id="cota_59">
+                  <div class="cotas-item--content">59</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 59 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 60)" id="cota_60">
+                  <div class="cotas-item--content">60</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 60 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 61)" id="cota_61">
+                  <div class="cotas-item--content">61</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 61 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 62)" id="cota_62">
+                  <div class="cotas-item--content">62</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 62 pago</div>
+                    <div class="text-warning">Lucas Eugênio de barros</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 63)" id="cota_63">
+                  <div class="cotas-item--content">63</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 63 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 64)" id="cota_64">
+                  <div class="cotas-item--content">64</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 64 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 65)" id="cota_65">
+                  <div class="cotas-item--content">65</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 65 pago</div>
+                    <div class="text-warning">Luis Fernando da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 66)" id="cota_66">
+                  <div class="cotas-item--content">66</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 66 pago</div>
+                    <div class="text-warning">Carlos Aparecido Brito Matos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 67)" id="cota_67">
+                  <div class="cotas-item--content">67</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 67 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 68)" id="cota_68">
+                  <div class="cotas-item--content">68</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 68 pago</div>
+                    <div class="text-warning">Rony chagas Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 69)" id="cota_69">
+                  <div class="cotas-item--content">69</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 69 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 70)" id="cota_70">
+                  <div class="cotas-item--content">70</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 70 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 71)" id="cota_71">
+                  <div class="cotas-item--content">71</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 71 pago</div>
+                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 72)" id="cota_72">
+                  <div class="cotas-item--content">72</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 72 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 73)" id="cota_73">
+                  <div class="cotas-item--content">73</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 73 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 74)" id="cota_74">
+                  <div class="cotas-item--content">74</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 74 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 75)" id="cota_75">
+                  <div class="cotas-item--content">75</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 75 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 76)" id="cota_76">
+                  <div class="cotas-item--content">76</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 76 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 77)" id="cota_77">
+                  <div class="cotas-item--content">77</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 77 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 78)" id="cota_78">
+                  <div class="cotas-item--content">78</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 78 pago</div>
+                    <div class="text-warning">Lucas Eugênio de barros</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 79)" id="cota_79">
+                  <div class="cotas-item--content">79</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 79 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 80)" id="cota_80">
+                  <div class="cotas-item--content">80</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 80 pago</div>
+                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 81)" id="cota_81">
+                  <div class="cotas-item--content">81</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 81 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 82)" id="cota_82">
+                  <div class="cotas-item--content">82</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 82 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 83)" id="cota_83">
+                  <div class="cotas-item--content">83</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 83 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 84)" id="cota_84">
+                  <div class="cotas-item--content">84</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 84 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 85)" id="cota_85">
+                  <div class="cotas-item--content">85</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 85 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 86)" id="cota_86">
+                  <div class="cotas-item--content">86</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 86 pago</div>
+                    <div class="text-warning">Wesley Couto</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 87)" id="cota_87">
+                  <div class="cotas-item--content">87</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 87 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 88)" id="cota_88">
+                  <div class="cotas-item--content">88</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 88 pago</div>
+                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 89)" id="cota_89">
+                  <div class="cotas-item--content">89</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 89 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 90)" id="cota_90">
+                  <div class="cotas-item--content">90</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 90 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 91)" id="cota_91">
+                  <div class="cotas-item--content">91</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 91 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 92)" id="cota_92">
+                  <div class="cotas-item--content">92</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 92 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 93)" id="cota_93">
+                  <div class="cotas-item--content">93</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 93 pago</div>
+                    <div class="text-warning">Anderson oliveira dos santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 94)" id="cota_94">
+                  <div class="cotas-item--content">94</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 94 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 95)" id="cota_95">
+                  <div class="cotas-item--content">95</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 95 pago</div>
+                    <div class="text-warning">Anderson oliveira dos santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 96)" id="cota_96">
+                  <div class="cotas-item--content">96</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 96 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 97)" id="cota_97">
+                  <div class="cotas-item--content">97</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 97 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 98)" id="cota_98">
+                  <div class="cotas-item--content">98</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 98 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 99)" id="cota_99">
+                  <div class="cotas-item--content">99</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 99 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="alert alert-info" id="loading" style="display: none;"><i class="fa fa-spin fa-spinner"></i>
+            Carregando cotas</div>
+          <div class="alert alert-warning" id="warning_numbers" style="display: none;"></div>
+        </div>
+        <div class="bg-white chosen-numbers py-3">
+          <span class="close_end" jc-attached="true">Limpar</span>
+          <div class="container">
+            <div class="align-items-center justify-content-center row">
+              <div class="col-12 col-md">
+                <div class="d-block d-flex flex-wrap justify-content-start m-0 pl-0 pt-1 text-dark">
+                  <div class="listcotasselected">
+                    <div class="cotas-listagem"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-auto">
+                <span class="d-block w-100 js_discount"></span>
+                <span class="js_quantity">0</span>x <span class="js_itemValue">R$ 2,00</span> = <span
+                  class="js_total">R$ 0</span>
+              </div>
+              <div class="col col-md-auto text-right">
+                <button class="btn btn-dark btn-lg btnSubmit buy_raffle" data-toggle="modal" type="button"
+                  data-target="#numberReservation"><i class="fa fa-check"></i> Finalizar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade mt-4" id="numberReservation" tabindex="-1" role="dialog"
+        aria-labelledby="numberReservationLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="numberReservationLabel"><b>CHECKOUT</b></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="mb-2">Pagamento referente à participação na ação entre amigos <b>Rapidinha Honda Biz</b> com
+                a(s) cota(s):</p>
+              <div class="listcotasselected mb-2">
+                <div class="cotas-listagem"></div>
+              </div>
+              <div class="alert alert-danger cotaEmpty" style="display:none;">Selecione no mínimo 1 (uma) cota</div>
+              <div class="mainAlert"></div>
+              <p>
+                <span class="d-block w-100 js_discount"></span>
+                <span class="js_quantity">0</span>x <span class="js_itemValue">R$ 2,00</span> = <span
+                  class="js_total">R$ 0</span>
+              </p>
+              <p>Por favor, preencha os dados abaixo para poder finalizar o pedido.</p>
+              <form method="post" class="" data-fulldate="20/07/2022 às 15:28" id="paymentForm">
+                <input class="d-none" type="hidden" name="selectednumbers" id="selected-numbers" value="" max="100">
+                <input class="d-none" type="hidden" name="pid" id="pid" value="15154" max="100">
+                <input class="d-none" type="hidden" name="uid" id="uid" value="3" max="100">
+                <input class="d-none" type="hidden" name="vhours" id="vhours" value="2" max="100">
+                <input class="d-none" type="hidden" name="qtd" id="qtd" value="0" max="100">
+                <input class="d-none" type="hidden" name="ptitle" id="ptitle" value="Rapidinha Honda Biz" max="100">
+                <input class="d-none" type="hidden" name="affid" id="affid" value="" max="100">
+                <input class="d-none" type="hidden" name="load_numbers_discount_qtd" value="0" max="100">
+                <input class="d-none" type="hidden" name="load_numbers_discount_amount" value="" max="100">
+                <input class="d-none" type="hidden" name="quota_limit_per_client" id="quota_limit_per_client"
+                  value="100" max="100">
+                <div class="main-fields">
+                  <div class="form-group">
+                    <label for="name" class="col-form-label">Nome completo:</label>
+                    <input type="text" name="name" class="form-control form-control-lg" id="name"
+                      placeholder="Digite o nome completo" title="Preencha o campo Nome Completo" minlength="10"
+                      required="" max="100">
+                  </div>
+                  <div class="form-group">
+                    <label for="celular" class="col-form-label">Celular:</label>
+                    <input type="tel" name="phone" class="form-control form-control-lg js_phone"
+                      placeholder="Digite o telefone com ddd" id="celular" required="" max="100" maxlength="15">
+                  </div>
+                </div>
+                <div class="form-group form-check terms_of_use">
+                  <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                    <input type="checkbox" name="termUse" class="custom-control-input" id="termUse" checked=""
+                      required="" max="100">
+                    <label class="custom-control-label" for="termUse">Realizando seu pedido, você declara que leu e
+                      concorda com nossos <a href="https://divimotos.com.br/termos-de-uso" target="_blank"
+                        title="Termos de Uso">Termos de Uso.</a></label>
+                  </div>
+                </div>
+                <input type="hidden" id="field_create_post" name="field_create_post" value="434e505f0d" max="100"><input
+                  type="hidden" name="_wp_http_referer" value="/rapidinha-honda-biz-3/" max="100">
+                <div class="modal-footer">
+                  <button type="submit" id="btnSubmit" title="Clique para confirmar o pedido"
+                    class="btn btn-primary btn-block">Confirmar pedido</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-payment mb-5">
+      <div class="mb-4 border-bottom">
+        <h3 class="h4 text-center color_tilte_single">Dados para pagamento</h3>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/NuConta.jpg"></p>
+          <p class="h5">NUBANK</p>
+          <p class="">Gleidson Marques Carlota</p>
+          <p class="">Código: 260</p>
+          <p class="">Agência: 0001</p>
+          <p class="">Conta: 9813348-1</p>
+          <p class="">CPF: 097.727.976-66</p>
+        </div>
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/inter.png"></p>
+          <p class="h5">INTER</p>
+          <p class="">Gleidson Marques Carlota</p>
+          <p class="">código: 077</p>
+          <p class="">Agência: 0001-9</p>
+          <p class="">Conta: 64810968</p>
+          <p class="">CPF: 097.727.976-66</p>
+        </div>
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/testePIC.png"></p>
+          <p class="h5">PICPAY</p>
+          <p class="">Gleidson Marques Carlota</p>
+          <p class=""><a href="http://picpay.me/gleidson.marques7">Pagar Com PicPay</a></p>
+        </div>
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/mercadopago.png"></p>
+          <p class="h5">MERCADO PAGO</p>
+          <p class="">Cartão De Crétido</p>
+          <p class="">Boleto bancário</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade mt-1" id="consultMyNumberModal" tabindex="-1" role="dialog"
+      aria-labelledby="numberReservationLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="consultMyNumbersFormLabel">CONSULTAR COTA(S)</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" class="" name="consultMyNumbers" id="consultMyNumbersForm">
+              <div class="form-group">
+                <label for="phone" class="col-form-label text-uppercase">Número de celular cadastrado:</label>
+                <input type="tel" name="phone" class="form-control form-control-lg js_phone" id="phone"
+                  placeholder="Número de celular cadastrado" required="" max="100" maxlength="15">
+                <input type="hidden" name="r-id" value="15154" max="100">
+                <input type="hidden" name="wredirection" value="https://divimotos.com.br/minhas-cotas" max="100">
+              </div>
+              <input type="hidden" id="field_consult_number" name="field_consult_number" value="b472d307e5"
+                max="100"><input type="hidden" name="_wp_http_referer" value="/rapidinha-honda-biz-3/" max="100">
+              <div class="modal-footer">
+                <button type="submit" id="btnSubmitPhone" title="Clique para consultar"
+                  class="btn btn-success">Confirmar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade mt-1 show" id="select-random-numbers-modal" tabindex="-1" data-backdrop="" role="dialog"
+      aria-labelledby="numberReservationLabel" style="top: 25%; padding-right: 15px;" aria-modal="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="border-bottom: 2px solid #0e9447;">
+            <center>
+              <b class="modal-title" id="select-random-numbers">Cotas Aleatórias</b>
+            </center>
+          </div>
+
+          <div class="modal-body">
+            <form id="select-random-numbers-modal-form">
+              <div id="select-random-numbers-modal-alert" class="alert alert-danger"
+                style="display: none; width: 100%; text-align: center;"></div>
+              <div class="form-group" style="text-align: center;">
+                <h5>Ainda restam <span class="j_available">0</span> cota(s) </h5>
+                <div class="form-group">
+                  <div>
+                    <i for="rcode" class="col-form-label">Quantas cotas você quer?</i>
+                  </div>
+                  <input type="number" name="qtdNumbersRandom" value=""
+                    style="margin: auto; width: 70%; font-weight: bold !important; text-align: center;"
+                    class="form-control form-control-lg" id="select-random-numbers-modal-input"
+                    placeholder="Quantidade de cotas" required="" min="1" max="100">
+                </div>
+                <button type="button" onclick="selectRandomNumbers()" id="select-random-numbers-modal-submit"
+                  title="Clique para sortear" class="btn btn-success">Escolher</button>
+                <button id="select-random-numbers-modal-close" type="button" class="btn btn-danger"
+                  data-dismiss="modal">Fechar</button>
+                <div class="modal-footer" style="border: none;"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white bg_custom_main_footer">
+    <div class="container py-4">
+      <div class="row">
+
+
+        <section id="text-2" class="widget_footer col-6 col-md-3 widget_text">
+          <div class="textwidget">
+            <p><img class="img-fluid" src="./img/01-footer.png"></p>
+            <h6>ESCOLHA O SORTEIO</h6>
+            <p class="notopmargin">Escolha o prêmio que gostaria de concorrer, verifique a descrição,
+              regulamento do sorteio e fotos em caso de dúvidas entre em contato com o administrador</p>
+          </div>
+        </section>
+        <section id="text-3" class="widget_footer col-6 col-md-3 widget_text">
+          <div class="textwidget">
+            <p><img class="img-fluid" src="./img/02-footer.png"></p>
+            <h6>SELECIONE SEUS NÚMEROS</h6>
+            <p class="notopmargin">Você pode escolher quantos números desejar!<br>
+              Mais números, mais chances de ganhar</p>
+          </div>
+        </section>
+        <section id="text-4" class="widget_footer col-6 col-md-3 widget_text">
+          <div class="textwidget">
+            <p><img class="img-fluid" src="./img/03-footer.png"></p>
+            <h6>FAÇA O PAGAMENTO</h6>
+            <p class="notopmargin">Faça o pagamento em umas das contas exibidas.<br>
+              Envie o comprovante ao administrador via whatsApp.</p>
+          </div>
+        </section>
+        <section id="text-5" class="widget_footer col-6 col-md-3 widget_text">
+          <div class="textwidget">
+            <p><img class="img-fluid" src="./img/04-footer.png"></p>
+            <h6>AGUARDE O SORTEIO</h6>
+            <p class="notopmargin">Aguarde o sorteio pela Loteria Federal<br>
+              Cruze os dedos<br>
+              Você pode ser o próximo sorteado</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container-fluid bg-success social_footer border-bottom border-white">
+      <div class="main_social">
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center social m-0 py-2">
+
+
+          <li class="ml-3 my-2"><a class="instagram" target="_blank"
+              href="https://www.instagram.com/gleidsondivimotos/?hl=pt-br" title="Instagram"><i
+                class="fa fa-instagram"></i></a></li>
+
+          <li class="ml-3 my-2"><a class="youtube" target="_blank"
+              href="https://www.youtube.com/channel/UCn-4o8mQ4hWR9uliLIl2L4A" title="Youtube"><i
+                class="fa fa-play"></i></a></li>
+
+          <li class="ml-3 my-2"><a class="whatsapp" target="_blank"
+              href="https://api.whatsapp.com/send?l=pt_br&amp;phone=553791680238" title="WhatsApp"><i
+                class="fa fa-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bg-success text-white text-center py-3 bg_custom_secondary_footer">
+      <p class="mb-0">© 2022 - EVOSYS | Todos os Direitos Reservados!</p>
+    </div>
+  </footer>
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- JavaScrit do Site -->
+  <script src="./js/axios.min.js.download"></script>
+  <script src="./js/strings.js.download"></script>
+  <script>
+    WebFontConfig = { google: { families: ["Titillium+Web:300,400,600:latin", "Days+One", "Roboto", "Lato", "Source+Sans+Pro", "Dosis", "Open+Sans"] } }; (function () { var a = document.createElement("script"); a.src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"; a.type = "text/javascript"; a.async = "true"; var b = document.getElementsByTagName("script")[0]; b.parentNode.insertBefore(a, b) })();
+    jQuery(document).ready(function () {
+      jQuery('html').removeClass('pre-loading');
+    });
+    jQuery(document).ready(function () { jQuery('html').removeClass('pre-loading'); jQuery('.main_fotorama').show() });
+  </script>
+  <script type="text/javascript" src="./js/jquery.maskMoney.min.js.download" id="maskMoney-js"></script>
+  <script type="text/javascript" src="./js/jquery.mask.min.js.download" id="jquery-mask-js"></script>
+  <script type="text/javascript" src="./js/jquery-confirm.min.js.download" id="jquery-confirm-js"></script>
+  <script type="text/javascript" id="maincommon-js-extra">
+    /* <![CDATA[ */
+    var wpst = { "ajaxurl": "https:\/\/divimotos.com.br\/wp-admin\/admin-ajax.php", "messagekey": "Aguarde carregando...", "currency": "R$", "position": "left_space", "precision": "2", "decimal": ",", "thousands": "." };
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="./js/maincommon.js.download" id="maincommon-js"></script>
+</body>
+
+</html>
