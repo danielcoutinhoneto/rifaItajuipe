@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lidi Laboratório v1.0</title>
+  <!--Favicons-->
+  <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="./favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" id="style-css" href="./css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" id="confirm-css-css" href="./css/confirm.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="bootstrap4-css" href="./css/bootstrap.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="font-awesome.min-css" href="./css/font-awesome.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="custom-css" href="./css/custom.css" type="text/css" media="all">
+  <link rel="stylesheet" id="fotorama-css-css" href="./css/fotorama.css" type="text/css" media="all">
+  <link rel="stylesheet" id="pro-dynamic-css-css" href="./css/admin-ajax.php" type="text/css" media="all">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4">Rifas Itajuípe</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sorteios</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Fale Conosco</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Termos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="mb-2 col-12 col-lg-8">
+        <div class="mb-2 main_fotorama" style="">
+          <style></style>
+          <div class="fotorama--hidden"></div>
+          <style></style>
+          <div class="fotorama--hidden"></div>
+          <div class="fotorama fotorama1658334513380 fotorama1658759945238" data-autoplay="true" data-width="100%"
+            data-ratio="1280/720" data-allowfullscreen="true" data-nav="thumbs">
+            <div
+              class="fotorama__wrap fotorama__wrap--css3 fotorama__wrap--slide fotorama__wrap--toggle-arrows fotorama__wrap--no-controls"
+              style="width: 100%; min-width: 0px; max-width: 100%;">
+              <div class="fotorama__stage" style="width: 510px; height: 287px;">
+                <div class="fotorama__fullscreen-icon" tabindex="0" role="button"></div>
+                <div class="fotorama__stage__shaft"
+                  style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); width: 510px; margin-left: 0px;">
+                  <div class="fotorama__stage__frame fotorama__loaded fotorama__active" style="left: 0px;">
+                    <div class="fotorama__html">
+                      <div
+                        class="fotorama__wrap fotorama__wrap--css3 fotorama__wrap--slide fotorama__wrap--toggle-arrows fotorama__wrap--no-controls"
+                        style="width: 100%; min-width: 0px; max-width: 100%;">
+                        <div class="fotorama__stage" style="width: 783px; height: 441px;">
+                          <div class="fotorama__fullscreen-icon" tabindex="0" role="button"></div>
+                          <div class="fotorama__stage__shaft"
+                            style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); width: 783.328px; margin-left: 0px;">
+                            <div class="fotorama__stage__frame fotorama__loaded fotorama__loaded--img fotorama__active"
+                              style="left: 0px;"><img
+                                src="./img/6BA0E76B-7A89-4B16-B5BF-FF15E543B770-pcrl4epxx7dcbjcfpzlcohw3xcltqkd3q2ba2yobvk.jpeg"
+                                class="fotorama__img"
+                                style="width: 783.328px; height: 440.622px; left: 0px; top: 0.189px;">
+                            </div>
+                          </div>
+                          <div class="fotorama__arr fotorama__arr--prev fotorama__arr--disabled" tabindex="-1"
+                            role="button" disabled="disabled" style="display: none;"></div>
+                          <div class="fotorama__arr fotorama__arr--next fotorama__arr--disabled" tabindex="-1"
+                            role="button" disabled="disabled" style="display: none;"></div>
+                          <div class="fotorama__video-close"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="fotorama__arr fotorama__arr--prev fotorama__arr--disabled" tabindex="-1" role="button"
+                  disabled="disabled" style="display: none;"></div>
+                <div class="fotorama__arr fotorama__arr--next fotorama__arr--disabled" tabindex="-1" role="button"
+                  disabled="disabled" style="display: none;"></div>
+                <div class="fotorama__video-close"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-4 col-12 col-lg-4 text_info">
+        <div class="rounded p-3">
+          <div class="">
+            <h1 class="h4 color_tilte_single">Rifa Honda Biz</h1>
+          </div>
+          <div>
+            <div class="bd-highlight d-flex justify-content-center mb-3 text-center">
+              <div class="badge-success bd-highlight flex-fill p-2 rounded main_price">
+                <p class="font-weight-bold mb-0 text-uppercase">Valor </p>
+                <p class="mb-0">R$ 2,00</p>
+              </div>
+            </div>
+            <p>O ganhador dessa rifa ganha uma Honda Biz 125.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg_custom_draw mb-5 border-top">
+      <div id="cotas">
+        <div class="row">
+          <div class="col-auto my-1">
+            <div aria-label="Cotas" class="btn-group my-1" role="group">
+              <button onclick="setAllCotas()" class="btn btn-dark btn_all" type="button">Todas (<span
+                  class="j_all">100</span>) </button>
+              <button onclick="setSearchStatus(3)" class="btn btn-light btn_available" type="button"><i
+                  class="fa fa-pencil-square-o" aria-hidden="true"></i> Livres (<span class="j_available">0</span>)
+              </button>
+              <button onclick="setSearchStatus(0)" class="btn btn-info btn_reserved" type="button"> <i
+                  class="fa fa-clock-o" aria-hidden="true"></i> Reservados (<span class="j_reserved">0</span>)
+              </button>
+              <button onclick="setSearchStatus(1)" class="btn btn-success btn_paid" type="button"><i
+                  class="fa fa-check-square-o" aria-hidden="true"></i> Pagos (<span class="j_paid">100</span>)
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="cotas-pages">
+            <div class="listcotas">
+              <div class="cotas-listagem">
+                <div class="cotas-item status1">
+                  <div class="cotas-item--content">00</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 00 pago</div>
+                    <div class="text-warning">TESTE DA SILVA</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">01</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 01 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status">
+                  <div class="cotas-item--content">02</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 02 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">03</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 03 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">04</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 04 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">05</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 05 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status3">
+                  <div class="cotas-item--content">06</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 06 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status0">
+                  <div class="cotas-item--content">07</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 07 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1">
+                  <div class="cotas-item--content">08</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 08 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status0">
+                  <div class="cotas-item--content">09</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 09 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status">
+                  <div class="cotas-item--content">10</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 010 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 11)" id="cota_11">
+                  <div class="cotas-item--content">11</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 011 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 12)" id="cota_12">
+                  <div class="cotas-item--content">12</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 012 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 13)" id="cota_13">
+                  <div class="cotas-item--content">13</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 013 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 14)" id="cota_14">
+                  <div class="cotas-item--content">14</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 014 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 15)" id="cota_15">
+                  <div class="cotas-item--content">15</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 015 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 16)" id="cota_16">
+                  <div class="cotas-item--content">16</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 016 pago</div>
+                    <div class="text-warning">Rhayam Almeida</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 17)" id="cota_17">
+                  <div class="cotas-item--content">17</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 017 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 18)" id="cota_18">
+                  <div class="cotas-item--content">18</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 018 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 19)" id="cota_19">
+                  <div class="cotas-item--content">19</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 019 pago</div>
+                    <div class="text-warning">Patrick Pierre ramos vieira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 20)" id="cota_20">
+                  <div class="cotas-item--content">20</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 020 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 21)" id="cota_21">
+                  <div class="cotas-item--content">21</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 021 pago</div>
+                    <div class="text-warning">Patrick Pierre ramos vieira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 22)" id="cota_22">
+                  <div class="cotas-item--content">22</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 022 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 23)" id="cota_23">
+                  <div class="cotas-item--content">23</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 023 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 24)" id="cota_24">
+                  <div class="cotas-item--content">24</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 024 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 25)" id="cota_25">
+                  <div class="cotas-item--content">25</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 025 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 26)" id="cota_26">
+                  <div class="cotas-item--content">26</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 026 pago</div>
+                    <div class="text-warning">Rony chagas Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 27)" id="cota_27">
+                  <div class="cotas-item--content">27</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 027 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 28)" id="cota_28">
+                  <div class="cotas-item--content">28</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 28 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 29)" id="cota_29">
+                  <div class="cotas-item--content">29</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 29 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 30)" id="cota_30">
+                  <div class="cotas-item--content">30</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 30 pago</div>
+                    <div class="text-warning">Lucas Muniz Barra da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 31)" id="cota_31">
+                  <div class="cotas-item--content">31</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 31 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 32)" id="cota_32">
+                  <div class="cotas-item--content">32</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 32 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 33)" id="cota_33">
+                  <div class="cotas-item--content">33</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 33 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 34)" id="cota_34">
+                  <div class="cotas-item--content">34</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 34 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 35)" id="cota_35">
+                  <div class="cotas-item--content">35</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 35 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 36)" id="cota_36">
+                  <div class="cotas-item--content">36</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 36 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 37)" id="cota_37">
+                  <div class="cotas-item--content">37</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 37 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 38)" id="cota_38">
+                  <div class="cotas-item--content">38</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 38 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 39)" id="cota_39">
+                  <div class="cotas-item--content">39</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 39 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 40)" id="cota_40">
+                  <div class="cotas-item--content">40</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 40 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 41)" id="cota_41">
+                  <div class="cotas-item--content">41</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 41 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 42)" id="cota_42">
+                  <div class="cotas-item--content">42</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 42 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 43)" id="cota_43">
+                  <div class="cotas-item--content">43</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 43 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 44)" id="cota_44">
+                  <div class="cotas-item--content">44</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 44 pago</div>
+                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 45)" id="cota_45">
+                  <div class="cotas-item--content">45</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 45 pago</div>
+                    <div class="text-warning">Deoclecio Neponoceno De oliveira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 46)" id="cota_46">
+                  <div class="cotas-item--content">46</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 46 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 47)" id="cota_47">
+                  <div class="cotas-item--content">47</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 47 pago</div>
+                    <div class="text-warning">Vitor de Souza Moreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 48)" id="cota_48">
+                  <div class="cotas-item--content">48</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 48 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 49)" id="cota_49">
+                  <div class="cotas-item--content">49</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 49 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 50)" id="cota_50">
+                  <div class="cotas-item--content">50</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 50 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 51)" id="cota_51">
+                  <div class="cotas-item--content">51</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 51 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 52)" id="cota_52">
+                  <div class="cotas-item--content">52</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 52 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 53)" id="cota_53">
+                  <div class="cotas-item--content">53</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 53 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 54)" id="cota_54">
+                  <div class="cotas-item--content">54</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 54 pago</div>
+                    <div class="text-warning">Wesley Couto</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 55)" id="cota_55">
+                  <div class="cotas-item--content">55</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 55 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 56)" id="cota_56">
+                  <div class="cotas-item--content">56</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 56 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 57)" id="cota_57">
+                  <div class="cotas-item--content">57</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 57 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 58)" id="cota_58">
+                  <div class="cotas-item--content">58</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 58 pago</div>
+                    <div class="text-warning">Mario Jose Franco Adala</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 59)" id="cota_59">
+                  <div class="cotas-item--content">59</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 59 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 60)" id="cota_60">
+                  <div class="cotas-item--content">60</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 60 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 61)" id="cota_61">
+                  <div class="cotas-item--content">61</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 61 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 62)" id="cota_62">
+                  <div class="cotas-item--content">62</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 62 pago</div>
+                    <div class="text-warning">Lucas Eugênio de barros</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 63)" id="cota_63">
+                  <div class="cotas-item--content">63</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 63 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 64)" id="cota_64">
+                  <div class="cotas-item--content">64</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 64 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 65)" id="cota_65">
+                  <div class="cotas-item--content">65</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 65 pago</div>
+                    <div class="text-warning">Luis Fernando da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 66)" id="cota_66">
+                  <div class="cotas-item--content">66</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 66 pago</div>
+                    <div class="text-warning">Carlos Aparecido Brito Matos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 67)" id="cota_67">
+                  <div class="cotas-item--content">67</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 67 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 68)" id="cota_68">
+                  <div class="cotas-item--content">68</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 68 pago</div>
+                    <div class="text-warning">Rony chagas Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 69)" id="cota_69">
+                  <div class="cotas-item--content">69</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 69 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 70)" id="cota_70">
+                  <div class="cotas-item--content">70</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 70 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 71)" id="cota_71">
+                  <div class="cotas-item--content">71</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 71 pago</div>
+                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 72)" id="cota_72">
+                  <div class="cotas-item--content">72</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 72 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 73)" id="cota_73">
+                  <div class="cotas-item--content">73</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 73 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 74)" id="cota_74">
+                  <div class="cotas-item--content">74</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 74 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 75)" id="cota_75">
+                  <div class="cotas-item--content">75</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 75 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 76)" id="cota_76">
+                  <div class="cotas-item--content">76</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 76 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 77)" id="cota_77">
+                  <div class="cotas-item--content">77</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 77 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 78)" id="cota_78">
+                  <div class="cotas-item--content">78</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 78 pago</div>
+                    <div class="text-warning">Lucas Eugênio de barros</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 79)" id="cota_79">
+                  <div class="cotas-item--content">79</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 79 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 80)" id="cota_80">
+                  <div class="cotas-item--content">80</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 80 pago</div>
+                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 81)" id="cota_81">
+                  <div class="cotas-item--content">81</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 81 pago</div>
+                    <div class="text-warning">Rafael André Martins</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 82)" id="cota_82">
+                  <div class="cotas-item--content">82</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 82 pago</div>
+                    <div class="text-warning">William Rodrigues de Souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 83)" id="cota_83">
+                  <div class="cotas-item--content">83</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 83 pago</div>
+                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 84)" id="cota_84">
+                  <div class="cotas-item--content">84</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 84 pago</div>
+                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 85)" id="cota_85">
+                  <div class="cotas-item--content">85</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 85 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 86)" id="cota_86">
+                  <div class="cotas-item--content">86</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 86 pago</div>
+                    <div class="text-warning">Wesley Couto</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 87)" id="cota_87">
+                  <div class="cotas-item--content">87</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 87 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 88)" id="cota_88">
+                  <div class="cotas-item--content">88</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 88 pago</div>
+                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 89)" id="cota_89">
+                  <div class="cotas-item--content">89</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 89 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 90)" id="cota_90">
+                  <div class="cotas-item--content">90</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 90 pago</div>
+                    <div class="text-warning">Matheus de Souza Lopes</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 91)" id="cota_91">
+                  <div class="cotas-item--content">91</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 91 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 92)" id="cota_92">
+                  <div class="cotas-item--content">92</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 92 pago</div>
+                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 93)" id="cota_93">
+                  <div class="cotas-item--content">93</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 93 pago</div>
+                    <div class="text-warning">Anderson oliveira dos santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 94)" id="cota_94">
+                  <div class="cotas-item--content">94</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 94 pago</div>
+                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 95)" id="cota_95">
+                  <div class="cotas-item--content">95</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 95 pago</div>
+                    <div class="text-warning">Anderson oliveira dos santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 96)" id="cota_96">
+                  <div class="cotas-item--content">96</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 96 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 97)" id="cota_97">
+                  <div class="cotas-item--content">97</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 97 pago</div>
+                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 98)" id="cota_98">
+                  <div class="cotas-item--content">98</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 98 pago</div>
+                    <div class="text-warning">José Luiz falcão</div>
+                  </div>
+                </div>
+                <div class="cotas-item status1  " onclick="fncChoose(this, 99)" id="cota_99">
+                  <div class="cotas-item--content">99</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 99 pago</div>
+                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-payment mb-5">
+      <div class="mb-4 border-bottom">
+        <h3 class="h4 text-center color_tilte_single">Dados para pagamento</h3>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/NuConta.jpg"></p>
+          <p class="h5">NUBANK</p>
+          <p class="">Gleidson Marques Carlota</p>
+          <p class="">Código: 123</p>
+          <p class="">Agência: 0001</p>
+          <p class="">Conta: 9123148-1</p>
+          <p class="">CPF: 012.123.123-11</p>
+        </div>
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/inter.png"></p>
+          <p class="h5">INTER</p>
+          <p class="">Gleidson Marques Carlota</p>
+          <p class="">código: 077</p>
+          <p class="">Agência: 0001-0</p>
+          <p class="">Conta: 64810968</p>
+          <p class="">CPF: 012.123.123-11</p>
+        </div>
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/testePIC.png"></p>
+          <p class="h5">PICPAY</p>
+          <p class="">teste </p>
+          <p class=""><a href="#">Pagar Com PicPay</a></p>
+        </div>
+        <div class="col-6 col-md-6 col-lg-2 text-center">
+          <p class=""><img class="d-block w-100" width="" height="" src="./img/mercadopago.png"></p>
+          <p class="h5">MERCADO PAGO</p>
+          <p class="">Cartão De Crétido</p>
+          <p class="">Boleto bancário</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade mt-1" id="consultMyNumberModal" tabindex="-1" role="dialog"
+      aria-labelledby="numberReservationLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="consultMyNumbersFormLabel">CONSULTAR COTA(S)</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" class="" name="consultMyNumbers" id="consultMyNumbersForm">
+              <div class="form-group">
+                <label for="phone" class="col-form-label text-uppercase">Número de celular cadastrado:</label>
+                <input type="tel" name="phone" class="form-control form-control-lg js_phone" id="phone"
+                  placeholder="Número de celular cadastrado" required="" max="100" maxlength="15">
+                <input type="hidden" name="r-id" value="15154" max="100">
+                <input type="hidden" name="wredirection" value="https://divimotos.com.br/minhas-cotas" max="100">
+              </div>
+              <input type="hidden" id="field_consult_number" name="field_consult_number" value="b472d307e5"
+                max="100"><input type="hidden" name="_wp_http_referer" value="/rapidinha-honda-biz-3/" max="100">
+              <div class="modal-footer">
+                <button type="submit" id="btnSubmitPhone" title="Clique para consultar"
+                  class="btn btn-success">Confirmar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade mt-1 show" id="select-random-numbers-modal" tabindex="-1" data-backdrop="" role="dialog"
+      aria-labelledby="numberReservationLabel" style="top: 25%; padding-right: 15px;" aria-modal="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="border-bottom: 2px solid #0e9447;">
+            <center>
+              <b class="modal-title" id="select-random-numbers">Cotas Aleatórias</b>
+            </center>
+          </div>
+
+          <div class="modal-body">
+            <form id="select-random-numbers-modal-form">
+              <div id="select-random-numbers-modal-alert" class="alert alert-danger"
+                style="display: none; width: 100%; text-align: center;"></div>
+              <div class="form-group" style="text-align: center;">
+                <h5>Ainda restam <span class="j_available">0</span> cota(s) </h5>
+                <div class="form-group">
+                  <div>
+                    <i for="rcode" class="col-form-label">Quantas cotas você quer?</i>
+                  </div>
+                  <input type="number" name="qtdNumbersRandom" value=""
+                    style="margin: auto; width: 70%; font-weight: bold !important; text-align: center;"
+                    class="form-control form-control-lg" id="select-random-numbers-modal-input"
+                    placeholder="Quantidade de cotas" required="" min="1" max="100">
+                </div>
+                <button type="button" onclick="selectRandomNumbers()" id="select-random-numbers-modal-submit"
+                  title="Clique para sortear" class="btn btn-success">Escolher</button>
+                <button id="select-random-numbers-modal-close" type="button" class="btn btn-danger"
+                  data-dismiss="modal">Fechar</button>
+                <div class="modal-footer" style="border: none;"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#twitter"></use>
+          </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#instagram"></use>
+          </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#facebook"></use>
+          </svg></a></li>
+    </ul>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
